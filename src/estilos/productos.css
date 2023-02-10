@@ -1,0 +1,28 @@
+.pContainer{
+    background-color: red;
+    margin: 0.5rem;
+    min-height: 300px;
+    min-width: 250px;
+    border-radius: 1.5%;
+}
+.pContainerImg{
+    background-color: #fff;
+    margin: 0.5rem;
+    max-width: 234px;
+    min-height: 200px;
+    border-radius: 5%;
+}
+img{
+    border-radius: 5%;
+}
+.pInfo{
+    padding: 0.5rem;
+    padding-top: 0;
+}
+.pNombre{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+}
+.pCost{
+    align-self: self-end;
+}
