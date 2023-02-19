@@ -20,15 +20,30 @@ img[class~="logo"]{
   width: 150px;
   height: 50px;
 }
-img[class~="carrito"]{
-  width: 50px;
+i[class~="bi-search"]{
+  font-size: 25px;
+  color:black;
 }
-img[class~="lupa"]{
-  width: 55px;
+i[class~="bi-cart"]{
+  font-size: 25px;
+  color:black;
 }
 i[class~="user"]{
   font-size: 40px;
   color: darkorange;
+}
+.nav{
+  justify-content: space-between;
+}
+/*
+.nav-item{
+  padding-right: 50px;
+}*/
+.userIcon{
+  justify-content: flex-end;
+}
+.busqueda{
+  margin-top: 3px;
 }
 /* 
       HOME.JS 

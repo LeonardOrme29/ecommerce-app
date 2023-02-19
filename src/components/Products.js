@@ -3,9 +3,9 @@ import '../estilos/productos.css'
 
 function Products (props){
   return (
-    <div className='pContainer d-flex flex-column justify-content-center'>
-        <div className='pContainerImg d-flex justify-content-center'>
-        <img className='' src={require(`../images/${props.img}.png`)} alt='product-item'/>
+    <div className='pContainer d-flex flex-column'>
+        <div className='pContainerImg d-flex flex-row justify-content-center align-items-center'>
+          <div className='prueba'></div>
         </div>
         <div className='pInfo d-flex flex-column'>
           <p className='pNombre'>{props.pNombre}</p>
