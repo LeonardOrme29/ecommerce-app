@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <>
     <header className='header-top-strip py-2'>
-        <div className='container-xl'>
+        <div className='container-xxl'>
           <div className='row'>
             <div className='col-2 d-flex align-items-center justify-content-center'>
               <img className='logo img-fluid' alt='logoTaal' src={logo}/>

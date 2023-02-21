@@ -7,7 +7,7 @@ import Products from '../components/Products'
 function Home() {
   return (
     <>
-      <div className='container-xll d-flex flex-column justify-content-end  big-banner'>
+      <div className='container-fluid d-flex flex-column justify-content-end  big-banner'>
       <div className='d-inline-flex f-column justify-content-between'>
         <div className='d-flex align-items-center'>
         <i class="arrow bi bi-arrow-left"></i>
